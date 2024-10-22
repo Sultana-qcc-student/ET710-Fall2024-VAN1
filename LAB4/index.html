@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn CSS With Me</title>
+        <style type="text/css">
+            body
+            {
+                background-color:beige;
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(Img/bg.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .heading-blue
+            {
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>formatting content with CSS</h1>
+
+            we will explore how to use CSS to manipulate how content is displayed.
+
+        </header>
+
+        <main>
+            <section>
+                <h2 class="heading-blue">Custom Heading</h2>
+
+                <!--Spam Tags Don't have any default formating. -->
+                <span class="heading">This would be a heading 1 tag.</span>
+
+                <span class="sub-heading">This would be a heading 2 tag.</span>
+            </section>
+
+            <section>
+                <h2 class="heading-blue">Cascading Styles:</h2>
+
+                <p class="italics">
+                    <span class="syb-heading">Nest span tag will be italized too!</span>
+                    "A computer would deserve to be called <span class="bold-text red-text">intelligent</span>
+                    if it could deceive a human into believing that it was human."
+                    <br>
+                    <br>
+                    Alan Turing
+                </p>
+            </section>
+
+            <section>
+
+                <h2 class="heading-blue">formating Tables:</h2>
+
+                This table will have an outside border and cell boarders.
+
+                <table id="table-with-border">
+                    <tr>
+                        <td>Monday</td>
+                        <td>Tuesday</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Friday</td>
+                        <td>Saturday</td>
+                    </tr>
+                </table>
+
+                This table won't have an outside border but the cells will along with padding.
+                <br>
+                <br>
+
+                <table id="table-with-padding">
+                    <tr>
+                        <!--Inline Formatting-->
+                        <td>January</td>
+                        <td>February</td>
+                        <td>March</td>
+                        </tr>
+                        <tr>
+                        <td>April</td>
+                        <td>May</td>
+                        <td>June</td>
+                        </tr>
+                        <tr>
+                        <td>July</td>
+                        <td>August</td>
+                        <td>September</td>
+                        </tr>
+                        <tr>
+                        <td>October</td>
+                        <td>November</td>
+                        <td>December</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>
