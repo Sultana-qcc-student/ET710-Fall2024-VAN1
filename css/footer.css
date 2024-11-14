@@ -1,0 +1,43 @@
+.footer {
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
+    border-top: 3px solid #28a745; /* Add a top border with a vibrant color */
+    text-align: center; /* Center the text for better alignment */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for a lifted effect */
+}
+
+.footer a {
+    color: lightgray;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition on hover */
+    margin: 0 15px; /* Add spacing between links */
+}
+
+.footer a:hover {
+    color: #28a745; /* Change the color to green on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 20px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #28a745; /* Match hover effect with links */
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
