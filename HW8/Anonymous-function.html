@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Function Examples</title>
+    </head>
+    <body>
+        <h1>JavaScript Function Examples</h1>
+        <div id="message"></div>
+        
+        <script type="text/javascript">
+            // Define the function using a function expression
+            var greetingMessage = function() {
+                document.getElementById("message").textContent = "Good Morning, Sultana!!!";
+            };
+
+            // Ensure the function is called after the DOM is loaded
+            window.onload = function() {
+                greetingMessage();  // Call the function after the page loads
+            };
+        </script>
+    </body>
+</html>
+
